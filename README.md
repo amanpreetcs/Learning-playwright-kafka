@@ -31,6 +31,24 @@ npx playwright install
 
 ---
 
+### Kafka Integration
+
+You can run Kafka locally using Docker.
+
+🔌 Start Kafka Locally with Docker
+
+```bash
+docker-compose -f kafka/docker-compose.yml up -d
+```
+
+## Usage
+
+1. Start Kafka with Docker Compose.
+2. Run `node consumer.js` to start the consumer.
+3. Run `node producer.js` to send messages.
+
+## Ensure Docker is running on your system before executing the above command.
+
 ## Running Tests
 
 ### 🧪 Run all tests (headless)

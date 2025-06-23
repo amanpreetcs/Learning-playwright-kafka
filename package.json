@@ -6,9 +6,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "---",
   "devDependencies": {
     "@playwright/test": "^1.53.0",
     "@types/node": "^24.0.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "kafkajs": "^2.2.4",
+    "playwright": "^1.53.0",
+    "playwright-core": "^1.53.0",
+    "undici-types": "^7.8.0"
   }
 }
