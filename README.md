@@ -44,8 +44,8 @@ docker-compose -f kafka/docker-compose.yml up -d
 ## Usage
 
 1. Start Kafka with Docker Compose.
-2. Run `node consumer.js` to start the consumer.
-3. Run `node producer.js` to send messages.
+2. Run `node kafka/consumer.js` to start the consumer.
+3. Run `node kafka/producer.js` to send messages.
 
 ## Ensure Docker is running on your system before executing the above command.
 
